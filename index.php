@@ -25,9 +25,10 @@
             <div class= "text-right mr-5 ">
                 <a href="add_user.php" class = "btn btn-success text-white">ADD NEW USER</a>
             </div> 
-           
+        
+        <br>
      
-
+        </div>
         <div class="mr-5 ml-5">
             <table width="80%" class="Table">
                 <thead  class = "card-header bg-warning text-white">
@@ -39,8 +40,7 @@
                         <th scope="col">Update</th>
             
                   </tr>
-                </thead>
-        </div>    
+                </thead>  
                 <?php
                     while($user_data = mysqli_fetch_array($result))
                 {
