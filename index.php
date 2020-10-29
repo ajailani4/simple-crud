@@ -33,9 +33,13 @@
 
             <div class="mr-5 ml-5">
                 <div class="search_user">
-                    <form action="" method="POST">
-                        <input type="text" name="search" placeholder="Search user">
-                        <button name="submit" class="btn btn-success text-white">Search</button>
+                    <form action="" method="POST" class = "form-row align-items-center">
+                        <div class="col-auto">
+                                <input type="text" class="form-control mb-2" name="search" placeholder="Search user">
+                        </div>
+                        <div class="col-auto">
+                        <button name="submit" class="btn btn-info text-white mb-2">Search</button>
+                        </div>
                     </form>
                 </div>
 

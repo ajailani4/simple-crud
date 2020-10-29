@@ -14,8 +14,8 @@
 
         <div class="modal-dialog text-center">  
             <div class="modal-content">
-                <div><br>
-                    <h1>Adding User</h1>
+                <div class = "card-header bg-success"><br>
+                    <h1 class = "text-white">Adding User</h1>
                 </div>      
                 <div id="form" class="col-12">
                     <form action="add_user.php" method="post" name="add_form">
