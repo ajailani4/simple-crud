@@ -8,18 +8,21 @@
 <html>
     <head>
         <title>CRUD Testing</title>
+        <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
 
     <body>
         <div class="card bg-primary">
      
             <div class = "mt-5 ml-3">
-                <h1>Crud Testing</h1>
+                <h1 class = "text-light"><strong>Crud Testing</strong></h1>
              </div>    
-                    
+                     
             <div class= "mt-0 ml-3">
-                <p>Get, Edit and Delete your data</p>
+                <p class = "text-light">Get, Edit and Delete your data</p>
             </div>
                    
             <div class= "text-right mr-5 ">
